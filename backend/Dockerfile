@@ -20,4 +20,4 @@ RUN unzip /tmp/pocketbase.zip -d /app
 RUN chmod +x /app/pocketbase
 
 # Start Pocketbase
-CMD [ "/app/pocketbase", "serve", "--http=0.0.0.0:5000", "--dir=/pb_data", "--publicDir=/pb_public" ]
+CMD [ "/app/pocketbase", "serve", "--http=0.0.0.0:5000", "--dir=/app/pb_data" ]
