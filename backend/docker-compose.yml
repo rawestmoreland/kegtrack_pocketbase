@@ -4,6 +4,6 @@ services:
   pocketbase:
     image: rawestmoreland/kegtrack-pocketbase:latest
     ports:
-      - '8090:8090'
+      - '5000:5000'
     volumes:
       - ./data:/pb_data
